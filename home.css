@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+/* -------start of navb ------*/
+
 .background {
 	height: 1500px;
 	background-color: #DFF0E7;
@@ -13,7 +15,7 @@
 	height: 65px;
 	/*border: 2px solid black;*/
 	width: 100%;
-	box-shadow: 5px 3px 8px #888888; 
+	box-shadow: 5px 3px 8px #888888;
 	background-color: white;
 }
 
@@ -42,8 +44,8 @@
 	right: 20px;
 	margin: 0 auto;
 	float: right;
-	
-	
+
+
 	display: block;
 	/*text-align-last: right;*/
 	position: relative;
@@ -94,11 +96,14 @@
 	margin: 10px auto;
 	text-align: center;
 	font-family: 'Lato',sans-serif;
-	font-style: normal; 
+	font-style: normal;
 
 
 }
-.body-box{	
+/* -------end of navb ------*/
+
+
+.body-box{
 	border: 2px solid white;
 	background-color: #62B78B;
 	border-radius: 8px;
@@ -108,13 +113,13 @@
 	margin-top: 40px;
 	text-align: center;
 	/*font-family: 'Lato',sans-serif;*/
-	font-style: normal; 
+	font-style: normal;
 }
 
 #subhead {
 	text-align: center;
 	font-family: 'Lato',sans-serif;
-	font-style: normal; 
+	font-style: normal;
 	font-size: 15px;
 	width: 65%;
 	height: 18%;
@@ -123,7 +128,7 @@
 	border-top-color: black;
 	border-top-width: 60%;
 	border-top-style: solid;
-	
+
 }
 
 .description {
@@ -138,10 +143,10 @@
 .donation-headline {
 	padding-bottom: 15px;
 	display: grid;
-	
+
 	height: 40px;
 	font-size: 30px;
-	
+
 	margin: 15px;
 }
 
@@ -179,7 +184,6 @@ display: grid;
 
 #about-oggi {
 	padding-left: 40px;
-	
+
 	display: inline;
 }
-

@@ -32,6 +32,7 @@
 
 .navbar ul li a {
 	text-decoration: none;
+	text-align: center;
 }
 
 .gfm-icon {
@@ -140,6 +141,7 @@
 	height: 40px;
 	font-size: 30px;
 	margin: 15px;
+	font-family: 'Lato',sans-serif;
 }
 
 .donation {
@@ -149,7 +151,7 @@ display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	background-color: #DFF0E7;
-	margin: 20px auto;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -159,23 +161,30 @@ display: grid;
 	grid-column-end: 2;
 	border-style: double;
 	border-radius: 8px;
+	font-family: 'Lato',sans-serif;
 }
 
 #name{
-	font-size: 20px;
+	font-size: 16px;
+	font-family: 'Lato',sans-serif;
+	padding-top: 8px;
 }
 
 .about-oggi {
-	padding-bottom: 20px;
+	padding-bottom: 25%;
+	padding-top: 25%;
 	border-style: double;
 	border-radius: 8px;
 	text-align: center;
 	margin: 0 auto;
 	background-color: #DFF0E7;
+	font-family: 'Lato',sans-serif;
+	font-size: 15px;
 }
 
 #about-oggi {
 	padding-left: 40px;
 	display: inline;
+
 }
 

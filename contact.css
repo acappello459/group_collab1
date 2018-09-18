@@ -63,7 +63,9 @@ label{
 
 
 /* right side of contact */
+
 .map{
+  /* background-image: url("map.png"); */
   background-color: yellow;
   height: 200px;
 }

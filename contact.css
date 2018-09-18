@@ -1,0 +1,18 @@
+.wrapper{
+  margin: 20% auto;
+  width: 80%;
+  border: 2px solid;
+  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left{
+  background-color: orange;
+  height: 200px;
+}
+
+.right{
+  background-color: green;
+  height: 200;
+}

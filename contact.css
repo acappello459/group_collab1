@@ -1,18 +1,79 @@
 .wrapper{
-  margin: 20% auto;
-  width: 80%;
+  margin: 8% auto;
+  height: 500px;
+  width: 60%;
+  padding: 20px;
+  border-radius: 15%;
   border: 2px solid;
-  background-color: green;
+  background-color: lightgrey;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.left{
-  background-color: orange;
+
+/* left side of contact */
+
+
+
+.title{
+  /* border: 2px solid blue */
+  /* background-color: blue; */
+  /* height: 50px; */
+}
+
+/* labels in the form */
+#name{
+  margin-bottom: 2%;
+  /* margin-left: 2%; */
+}
+#cell_number{
+  margin-bottom: 5%;
+}
+
+#drink{
+  margin-bottom: 30px;
+}
+
+
+
+#name input{
+  margin-left: 19%;
+}
+
+#cell_number input{
+  margin-left: 16%;
+}
+
+#drink input{
+  margin-left: 4%;
+  /* border: 2px solid pink; */
+}
+
+label{
+  margin-bottom: 10%;
+}
+
+/* button */
+
+.buttons{
+  background-color: grey;
+  margin-top: 100px;
+  /* height: 50px; */
+}
+
+
+/* right side of contact */
+.map{
+  background-color: yellow;
   height: 200px;
 }
 
-.right{
-  background-color: green;
-  height: 200;
+.social_text{
+  background-color: orange;
+  height: 120px;
+}
+
+.social_links{
+  background-color: lightblue;
+  height: 70px;
 }

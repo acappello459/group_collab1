@@ -16,6 +16,7 @@
 	box-shadow: 5px 3px 8px #888888; 
 	background-color: white;
 }
+
 .navbar {
 	width: 50%;
 	height: 3%;
@@ -27,6 +28,10 @@
 	position: absolute;
 	top: 40px;
 
+}
+
+.navbar ul li a {
+	text-decoration: none;
 }
 
 .gfm-icon {

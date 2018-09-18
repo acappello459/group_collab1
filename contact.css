@@ -1,7 +1,7 @@
 .wrapper{
   margin: 8% auto;
   height: 500px;
-  width: 60%;
+  width: 70%;
   padding: 20px;
   border-radius: 15%;
   border: 2px solid;
@@ -64,10 +64,22 @@ label{
 
 /* right side of contact */
 
+.right{
+/* margin-right: 600px; */
+}
 .map{
   /* background-image: url("map.png"); */
-  background-color: yellow;
+  /* background-color: yellow; */
+  margin-top: 70px;
   height: 200px;
+  /* margin-right: 300px; */
+  /* margin-left: 200px; */
+  /* border: 2px solid pink; */
+  /* text-align: left; */
+}
+
+iframe{
+  /* margin-left: 400px; */
 }
 
 .social_text{

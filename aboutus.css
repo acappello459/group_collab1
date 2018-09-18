@@ -23,14 +23,15 @@ grid-template-columns: 1fr 1fr;
   /* border: 2px solid blue; */
   padding: 50px;
 
+
 }
 
 .b{
   grid-column: 2/3;
   /* border: 2px solid red; */
-  background-image: url('blsmooth.png');
+  /* background-image: url('blsmooth.png'); */
   background-size: contain;
-  background-repeat: round;
+  background-repeat:repeat;
   color: red;
   font-size: 30px;
   /* animation-delay: 3s; */
@@ -45,7 +46,7 @@ grid-template-columns: 1fr 1fr;
 .c{
   /* border: 2px solid black; */
   grid-column: 2/3;
-  background-image: url('fado.jpg');
+  background-image: url('images/fado.jpg');
   background-size: contain;
   background-position: center;
   font-size: 30px;
@@ -94,16 +95,16 @@ grid-template-columns: 1fr 1fr;
 }
 
 @keyframes beer{
-  0% {background-image: url('blsmooth.png');}
-  10% {background-image: url('buschlight.jpg');}
-  20% {background-image: url('labatt-blue-bottle.png');}
-  30% {background-image: url('wildblue.jpg');}
-  40% {background-image: url('blueberryblonde.png');}
-  50% {background-image: url('gennycream.jpg');}
-  60% {background-image: url('angryorchard.png');}
-  70% {background-image: url('bluemoon.png');}
-  80% {background-image: url('Yuengling.jpg');}
-  90% {background-image: url('stella.jpg');}
-  100% {background-image: url('blsmooth.png');}
+  0% {background-image: url('images/blsmooth.png');}
+  10% {background-image: url('images/buschlight.jpg');}
+  20% {background-image: url('images/labatt-blue-bottle.png');}
+  30% {background-image: url('images/wildblue.jpg');}
+  40% {background-image: url('images/blueberryblonde.png');}
+  50% {background-image: url('images/gennycream.jpg');}
+  60% {background-image: url('images/angryorchard.png');}
+  70% {background-image: url('images/bluemoon.png');}
+  80% {background-image: url('images/Yuengling.jpg');}
+  90% {background-image: url('images/stella.jpg');}
+  100% {background-image: url('images/blsmooth.png');}
 
 }

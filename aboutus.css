@@ -1,7 +1,14 @@
 *{
   padding: 0;
   margin: 0;
+
 }
+.background{
+  background-color: #dff0e7;
+  height: 1500px;
+  margin-top:5px;
+}
+
 .wrapper{
 /* border: 2px solid; */
 width: 100%;
@@ -13,19 +20,19 @@ grid-template-columns: 1fr 1fr;
  .navbar {
   width: 50%;
 	height: 3%;
-	border: 2px solid;
+	/* border: 2px solid; */
 	float: right;
 	margin-top: 40px;
 	display: inline-block;
 	padding-left: 10px;
 	position: absolute;
-	top: 40px;
+	/* top: 40px; */
 
 }
 
 .header {
 	height: 65px;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	width: 100%;
 	box-shadow: 5px 3px 8px #888888;
 	background-color: white;
@@ -49,7 +56,41 @@ grid-template-columns: 1fr 1fr;
 
 .navbar ul li a {
   text-decoration: none;
-} */
+}
+
+.home {
+	/*border: 2px solid yellow;*/
+	width: 15%;
+	display: inline-block;
+	padding-right: 15px;
+	margin: 0 auto;
+	border-right-color: black;
+	border-right-style: solid;
+}
+
+.about {
+	/*border: 2px solid red;*/
+	width: 15%;
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 5px;
+	margin: 0 auto;
+	border-right-color: black;
+	border-right-style: solid;
+}
+
+.contact {
+	/*border: 2px solid green;*/
+	width: 15%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 5px;
+	/*padding-top: 40px;*/
+	margin: 0 auto;
+	border-right-color: black;
+	border-right-style: solid;
+}
+
 
 .block {
   /* border: 2px solid blue; */
@@ -87,6 +128,7 @@ grid-template-columns: 1fr 1fr;
   background-size: contain;
   background-position: center;
   font-size: 30px;
+  margin-top: 20px;
 }
 .b ol{
   padding-left: 45%;

@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	height: 2000px;
+	/*background-color: #e5e5e5;*/
+}
+
+.header {
+	height: 65px;
+	border: 2px solid black;
+	width: 100%;
+	box-shadow: 5px 3px 8px #888888; 
+}
+
+.navbar-left {
+	width: 45%;
+	border: 2px solid;
+	float: left;
+	margin-top: 40px;
+	display: inline;
+	padding-left: 10px;
+}
+
+.navbar-right {
+	width: 45%;
+	border: 2px solid red;
+	float: right;
+	text-decoration: none;
+	margin-top: 40px;
+	display: inline;
+	padding-right: 10px;
+	text-align-last: right;
+}
+
+.home {
+	border: 2px solid;
+	width: 125px;
+	display: inline;
+	padding-right: 120px;
+	margin: 0 40px;
+}
+
+.about {
+	border: 2px solid;
+	width: 125px;
+	display: inline;
+	padding-left: 40px;
+	margin: 0 40px;
+}
+
+.contact {
+	border: 2px solid;
+	width: 125px;
+	display: inline;
+	padding-right: 20px;
+	margin: 0 40px;
+}
+
+.how {
+	border: 2px solid;
+	width: 125px;
+	display: inline;
+	padding-left: 40px;
+	margin: 0 40px;
+}
+
+.gfm-icon {
+	/*float: left;*/
+	text-decoration: none;
+	/*margin-top: 5px;*/
+	display: inline;
+	padding-left: 35px;
+	/*padding-bottom: 200px;*/
+
+}
+
+.headline {
+	border: 2px solid;
+	font-size: 30px;
+	width: 75%;
+	margin: 30px auto;
+	text-align: center;
+
+}
+
+.description {
+	border: 2px solid;
+	height: 90px;
+	margin: 80px auto;
+	width: 80%;
+}

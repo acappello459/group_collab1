@@ -1,7 +1,7 @@
 .wrapper{
   margin: 8% auto;
   height: 500px;
-  width: 60%;
+  width: 70%;
   padding: 20px;
   border-radius: 15%;
   border: 2px solid;
@@ -171,6 +171,10 @@ label{
   /* background-color: yellow; */
   margin-top: 70px;
   height: 200px;
+<<<<<<< HEAD
+=======
+  /* margin-right: 300px; */
+>>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
   /* margin-left: 200px; */
   /* border: 2px solid pink; */
   /* text-align: left; */

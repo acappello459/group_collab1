@@ -6,7 +6,7 @@
 /* -------start of navb ------*/
 
 .background {
-	height: 1500px;
+	height: 100%;
 	background-color: #DFF0E7;
 	overflow: inherit;
 }
@@ -44,8 +44,11 @@
 	right: 20px;
 	margin: 0 auto;
 	float: right;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
 	display: block;
 	/*text-align-last: right;*/
 	position: relative;
@@ -112,8 +115,13 @@
 	margin: 0 auto;
 	margin-top: 40px;
 	text-align: center;
+<<<<<<< HEAD
 	/*font-family: 'Lato',sans-serif;*/
 	font-style: normal;
+=======
+	font-family: 'Lato',sans-serif;
+	font-style: normal; 
+>>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
 }
 
 #subhead {
@@ -132,7 +140,8 @@
 }
 
 .description {
-	border: 2px solid;
+	border: 2px solid white;
+	border-radius: 8px;
 	height: 400px;
 	margin: 60px auto;
 	width: 60%;
@@ -143,16 +152,22 @@
 .donation-headline {
 	padding-bottom: 15px;
 	display: grid;
+<<<<<<< HEAD
 
 	height: 40px;
 	font-size: 30px;
 
+=======
+	height: 40px;
+	font-size: 30px;
+>>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
 	margin: 15px;
 }
 
 .donation {
 display: grid;
-	border: 1px solid black;
+	border: 1px solid white;
+	border-radius: 8px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	background-color: #DFF0E7;
@@ -165,18 +180,17 @@ display: grid;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	border-style: double;
+	border-radius: 8px;
 }
 
 #name{
 	font-size: 20px;
-
 }
 
 .about-oggi {
 	padding-bottom: 20px;
 	border-style: double;
-	height: 90%;
-	width: 98%;
+	border-radius: 8px;
 	text-align: center;
 	margin: 0 auto;
 	background-color: #DFF0E7;
@@ -184,6 +198,9 @@ display: grid;
 
 #about-oggi {
 	padding-left: 40px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
 	display: inline;
 }

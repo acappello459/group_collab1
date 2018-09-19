@@ -1,3 +1,7 @@
+body{
+	background-color: #DFF0E7;
+}
+
 /* -------start of navb ------*/
 
 .background {
@@ -39,12 +43,6 @@
 	right: 20px;
 	margin: 0 auto;
 	float: right;
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
-	display: block;
 	/*text-align-last: right;*/
 	position: relative;
 }
@@ -108,7 +106,7 @@
   padding: 20px;
   border-radius: 15%;
   border: 2px solid;
-  background-color: lightgrey;
+  background-color: #62B78B;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -213,9 +211,7 @@
 }
 /* -------end of navb ------*/
 
-/* left side of contact */
-
-
+/*--------- left side of contact------- */
 
 .title{
   /* border: 2px solid blue */
@@ -264,7 +260,7 @@ label{
 }
 
 
-/* right side of contact */
+/* -----------right side of contact---------- */
 
 .right{
 /* margin-right: 600px; */
@@ -274,25 +270,30 @@ label{
   /* background-color: yellow; */
   margin-top: 70px;
   height: 200px;
-<<<<<<< HEAD
-=======
+
   /* margin-right: 300px; */
->>>>>>> 5d484d7eb2d877a4d259e354a6b5dfb49613b3fa
   /* margin-left: 200px; */
   /* border: 2px solid pink; */
   /* text-align: left; */
 }
 
-iframe{
-  /* margin-left: 400px; */
+
+
+/* ----social networks--- */
+
+.social_networks{
+  margin-left: 170px;
 }
 
-.social_text{
-  background-color: orange;
-  height: 120px;
+.social_networks li{
+	display: inline;
 }
 
-.social_links{
-  background-color: lightblue;
-  height: 70px;
+.social_networks img{
+  height: 50px;
+	width: 50px;
+}
+
+#snap{
+	width: 60px;
 }

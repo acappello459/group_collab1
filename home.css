@@ -159,8 +159,11 @@ display: grid;
 	padding-left: 40px;
 	grid-column-start: 1;
 	grid-column-end: 2;
-	border-style: double;
-	border-radius: 8px;
+	/*border-style: double;*/
+	border-right-width: 4px;
+	border-right-color: black;
+	border-right-style: solid;
+	
 	font-family: 'Lato',sans-serif;
 }
 
@@ -173,13 +176,13 @@ display: grid;
 .about-oggi {
 	padding-bottom: 25%;
 	padding-top: 25%;
-	border-style: double;
-	border-radius: 8px;
+
+	/*border-radius: 8px;*/
 	text-align: center;
 	margin: 0 auto;
 	background-color: #DFF0E7;
 	font-family: 'Lato',sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 #about-oggi {
